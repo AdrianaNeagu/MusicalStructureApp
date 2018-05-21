@@ -6,23 +6,27 @@
     android:orientation="horizontal">
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/play_button"
+        android:layout_height="@dimen/play_button"
         android:src="@drawable/ic_play_circle_outline_black_24dp"
         android:id="@+id/play_button"/>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/image_song"
+        android:layout_height="@dimen/image_song"
         android:id="@+id/song_image"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
         android:orientation="vertical">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="Artist"
+            android:textStyle="bold"
             android:id="@+id/artist_name"/>
         <TextView
             android:layout_width="wrap_content"
