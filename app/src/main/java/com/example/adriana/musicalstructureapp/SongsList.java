@@ -18,9 +18,9 @@ public class SongsList extends AppCompatActivity {
 
         ArrayList<Song> songs = new ArrayList<>();
 
-        songs.add(new Song("Dave Brubeck", "Take Five", R.drawable.dave_brubeck));
-        songs.add(new Song("Duke Ellington", "Take the A train", R.drawable.duke_ellington));
-        songs.add(new Song("Miles Davis", "So what", R.drawable.miles_davis));
+        songs.add(new Song("Dave Brubeck", "Take Five", R.mipmap.dave));
+        songs.add(new Song("Duke Ellington", "Take the A train", R.mipmap.duke));
+        songs.add(new Song("Miles Davis", "So what", R.mipmap.davis));
 
         ListView listView = findViewById(R.id.list_songs);
         adapter = new SongAdapter(songs, getApplicationContext());

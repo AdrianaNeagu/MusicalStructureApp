@@ -7,21 +7,21 @@
     tools:context=".MainActivity">
 
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="32dp"
-            android:layout_marginBottom="18dp"
-            android:src="@drawable/headphones" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="18dp"
+        android:layout_marginTop="32dp"
+        android:src="@mipmap/headphones" />
 
-        <TextView
-            android:id="@+id/choose_tune_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="@string/choose_your_tune"
-            android:textSize="24sp" />
+    <TextView
+        android:id="@+id/choose_tune_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/choose_your_tune"
+        android:textSize="24sp" />
 
 
 </LinearLayout>

@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">Musical Structure App</string>
-    <string name="choose_your_tune">Choose your tune</string>
+    <string name="choose_your_tune">Tap to choose a tune</string>
 </resources>
